@@ -1,4 +1,15 @@
-let team = [{name: "Luca",
+let team = [{name: "Daniele",
+             surname: "Lupo",
+             age: 23,
+             city: "Palermo",
+             hobby: "Dancing",
+             favoriteFood: "Curry",
+             favoriteVideoGame: "Death Stranding",
+             favoriteFilm: "",
+             favoriteBook: "Demian by Hermann Hesse",
+             namePet: "Yupi"
+            },
+            {name: "Luca",
              surname: "Lai",
              age: 34,
              city: "Cagliari",
@@ -31,4 +42,3 @@ let team = [{name: "Luca",
              favoriteBook: "Siddartha",
              namePet: "Sloth"
             }];
-            
