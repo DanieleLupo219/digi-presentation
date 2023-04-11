@@ -9,3 +9,4 @@ let team = [{name: "Daniele",
              favoriteBook: "Demian by Hermann Hesse",
              petName: "Yupi"
             }];
+
