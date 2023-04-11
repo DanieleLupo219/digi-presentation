@@ -8,4 +8,16 @@ let team = [{name: "Fernando",
              favoriteFilm: "Spider man",
              favoriteBook: "fahrenheit 451",
              namePet: ""
+            },
+            {name: "Edoardo",
+             surname: "Ricca",
+             age: 24,
+             city: "Roma",
+             hobby: "Trekking",
+             favoriteFood: "Squid",
+             favoriteVideoGame: "",
+             favoriteFilm: "Akira",
+             favoriteBook: "Siddartha",
+             namePet: "Sloth"
             }];
+            
