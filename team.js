@@ -1,11 +1,11 @@
-let team = [{name: "Daniele",
-             surname: "Lupo",
-             age: 23,
-             city: "Palermo",
-             hobby: "Dancing",
-             favoriteFood: "Curry",
-             favoriteVideoGame: "Death Stranding",
-             favoriteFilm: "",
-             favoriteBook: "Demian by Hermann Hesse",
-             petName: "Yupi"
+let team = [{name: "Fernando",
+             surname: "Lanna",
+             age: 27,
+             city: "Roma",
+             hobby: "Boxe",
+             favoriteFood: "Carbonara",
+             favoriteVideoGame: "Call of duty",
+             favoriteFilm: "Spider man",
+             favoriteBook: "fahrenheit 451",
+             petName: ""
             }];
