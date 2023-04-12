@@ -42,3 +42,31 @@ let team = [{name: "Daniele",
              favoriteBook: "Siddartha",
              namePet: "Sloth"
             }];
+
+team.sort(function (x, y) {
+    if (x.name < y.name) {
+        return -1;
+    }
+    if (x.name > y.name) {
+        return 1;
+    }
+    return 0;
+    }
+);
+
+console.log(team);
+            
+team.sort(function (x, y) {
+    if (x.age < y.age) {
+    return -1;
+}
+    if (x.age > y.age) {
+    return 1;
+}
+    return 0;
+}
+);
+
+console.log(team);
+
+
