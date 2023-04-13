@@ -55,18 +55,49 @@ team.sort(function (x, y) {
 );
 
 console.log(team);
-            
+
 team.sort(function (x, y) {
     if (x.age < y.age) {
-    return -1;
-}
+        return -1;
+    }
     if (x.age > y.age) {
-    return 1;
-}
+        return 1;
+    }
     return 0;
-}
+    }
 );
 
 console.log(team);
 
+let findAverageAge = (arr = []) => {
+    let { sum, count } = arr.reduce((acc, val) => {
+       let { sum, count } = acc;
+       sum += val.age;
+       count++;
+       return { sum, count };
+       }, {
+          sum: 0, count: 0
+    });
+    return (sum / (count || 1));
+ };
+ console.log(`${"The avarage age is"} ${findAverageAge(team)}`);
 
+ function teamPets() {
+    for(i = 0; i < team.length; i++) {
+       if (team[i].namePet) { 
+        console.log(`${team[i].name}'s pet is called ${team[i].namePet}`);
+        }
+    }
+};
+
+teamPets();
+
+function favGame() {
+    for(i = 0; i < team.length; i++) {
+       if (team[i].favoriteVideoGame === "LOL" || team[i].favoriteVideoGame === "League Of Legends") { 
+        console.log(`${team[i].name} ${"likes League Of Legends"}`);
+        }
+    }
+};
+
+favGame();
